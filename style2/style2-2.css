@@ -2,13 +2,17 @@
     margin: 0px;
 }
 
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
 .header {
     width: 100%;
     height: 89px;
     background-color: #2D303A;
-}
-.logo {
-    
 }
 
 .logo-text{
@@ -43,26 +47,51 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: coral;
+    background-color:#F06C64;
     width: 100%;
     height: 570px;
 }
+
 .vertical-display {
     position: relative;
-    border-top: 40px solid rgb(255, 255, 255);
-    border-right: 17px solid white;
-    border-left: 17px solid white;
-    border-bottom: 40px solid white;
-    border-radius: 8%;
+   
+}
+.vertical-display-pered{
+    position: absolute;
+    border-top: 60px solid #F2F2F2;
+    border-right: 15px solid #F2F2F2;
+    border-left: 15px solid #F2F2F2;
+    border-bottom: 60px solid #F2F2F2;
+    border-radius: 9%;
+}
+.vertical-display-shadow{
+    position:relative;
 }
 
-.vertical-display2 {
-    border-top: 17px solid white;
-    border-left: 40px solid white;
-    border-right: 40px solid white;
-    border-bottom: 17px solid white;
-    border-radius: 7%;
-    margin-bottom: -4px;
+.horizontal-display2 {
+    position:relative;
+}
+.vector-button{
+    position:absolute;
+}
+.vector-circle{
+    position:absolute;
+    position: absolute;
+    padding-top: 400px;
+    padding-left: 90px;
+}
+
+.horizontal-display-pered{
+    position:absolute;
+    border-top: 15px solid #F2F2F2;
+    border-left: 60px solid #F2F2F2;
+    border-right: 60px solid #F2F2F2;
+    border-bottom: 15px solid #F2F2F2;
+    border-radius: 9%;
+}
+
+.horizontal-display-shadow{
+    position:relative;
 }
 
 .array-right {
@@ -86,7 +115,7 @@
 
 
 .content-block {
-    background-color: cornflowerblue;
+
     margin: 0px auto;
 }
 .content-servis {
@@ -112,25 +141,29 @@
 
 .block {
     display: flex;
-    background-color: crimson;
+    background-color: #F2F2F2;
 }
 
 .first-block {
-    border: 1px solid black;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .second-block {
     display:flex;
-    justify-content: center;
-    border: 1px solid yellow;
+    justify-content: space-between;
 }
 .third-block{
     display: flex;
     flex-direction:column;
+    padding-bottom: 30px;
+    padding-right: 20px;
 }
 .third-block h3{
     color:#666D89;
     font-size: 18px;
+    padding-bottom: 7px;
 }
 .third-block p{
     color:#666D89;
