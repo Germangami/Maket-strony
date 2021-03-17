@@ -7,6 +7,7 @@ p{
 }
 h3{
     font-family: Arial, Helvetica, sans-serif;  
+    color: #666D89;
 }
 
 .header {
@@ -17,7 +18,7 @@ h3{
 
 .logo-text{
     color:#FFFFFF;
-    font-family: Lato;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .flex {
     display: flex;
@@ -102,6 +103,7 @@ h3{
     height: 1rem;
     transform: rotate(45deg);
     border-radius: 20%;
+    cursor: pointer;
 }
 .array-left {
     position: relative;
@@ -111,6 +113,7 @@ h3{
     height: 1rem;
     transform: rotate(220deg);
     border-radius: 20%;
+    cursor: pointer;
 }
 
 
@@ -183,11 +186,27 @@ h3{
     background-color:#2D303A;
 }
 .section-header{
-    border:aquamarine 1px solid;
+    color: #666D89;
+}
+.section-header h3{
+    color: #666D89;
+    padding-top: 49px;
+    padding-left: 40px;
+    padding-bottom: 14px;
+}
+.section-header p{
+    padding-left: 40px;
+    padding-bottom: 14px;
 }
 .filter-list{
     display:flex;
-    background-color:chartreuse 1px solid;
+    justify-content:space-between;
+    max-width: 20%;
+    padding-left: 40px;
+    padding-bottom: 12px;
+    font-size: 14px;
+    border-color: #666D89;
+    color: #666D89;
 }
 .filter-list-section{
     border: 1px solid #BBBBBB;
@@ -196,10 +215,12 @@ h3{
 }
 
 .portfolio-images{
-    border: rgb(11, 226, 83) 1px solid;
     display: flex;
-    width: 50%;
     flex-wrap: wrap;
+    flex-direction: column;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 70px;
 }
 
 .enter-image{
