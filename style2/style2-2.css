@@ -64,24 +64,35 @@ h3{
     border-left: 15px solid #F2F2F2;
     border-bottom: 60px solid #F2F2F2;
     border-radius: 9%;
+    z-index: 1
 }
 .vertical-display-shadow{
     position:relative;
 }
-
-.horizontal-display2 {
-    position:relative;
-}
 .vector-button{
     position:absolute;
+    position: absolute;
+    z-index: 3;
+    top: 412px;
+    left: 102px;
 }
 .vector-circle{
     position:absolute;
     position: absolute;
     padding-top: 400px;
     padding-left: 90px;
+    z-index: 2;
+}
+.vector-circle-tru{
+    position: absolute;
+    z-index: 4;
+    left: 94px;
+    top: 35px;
 }
 
+.horizontal-display2 {
+    position:relative;
+}
 .horizontal-display-pered{
     position:absolute;
     border-top: 15px solid #F2F2F2;
@@ -89,10 +100,31 @@ h3{
     border-right: 60px solid #F2F2F2;
     border-bottom: 15px solid #F2F2F2;
     border-radius: 9%;
+    z-index: 1
+    
 }
-
 .horizontal-display-shadow{
     position:relative;
+    
+}
+.horizontal-vector-circle{
+    position: absolute;
+    z-index: 4;
+    top: 88px;
+    left: 9px;
+}
+.horizontal-vector-circle-tru{
+    position: absolute;
+    z-index: 4;
+    left: 410px;
+    top: 91px;
+}
+.horizontal-vector-button{
+    position:absolute;
+    position: absolute;
+    z-index: 5;
+    top: 100px;
+    left: 22px;
 }
 
 .array-right {
@@ -151,6 +183,7 @@ h3{
     padding-top: 50px;
     padding-left: 40px;
     padding-right: 40px;
+    width: 300px;
 }
 
 .second-block {
@@ -215,15 +248,20 @@ h3{
 }
 
 .portfolio-images{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
     margin-right: 40px;
     margin-left: 40px;
     margin-bottom: 70px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.flex-porfoli-images{
+    
 }
 
 .enter-image{
-    width: 150px;
-    height: 150px;
+    padding: 10px;
 }
