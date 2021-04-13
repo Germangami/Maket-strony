@@ -265,3 +265,25 @@ h3{
 .enter-image{
     padding: 10px;
 }
+
+
+.footer-flex {
+    display:flex;
+}
+
+.footer-copyright {
+
+}
+
+.footer-first-facebook {
+position: relative;
+}
+
+.footer-circle {
+ position: absolute;
+}
+
+.footer-facebook {
+ position: absolute;
+}
+
